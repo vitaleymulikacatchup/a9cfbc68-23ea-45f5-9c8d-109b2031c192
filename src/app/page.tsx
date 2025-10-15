@@ -58,7 +58,8 @@ export default function Home() {
             imageSrc={assetMap.find(a => a.id === 'hero-pizza')?.url}
             inputPlaceholder="Your email address"
             buttonText="Send Message"
-            termsText="We respect your privacy. Unsubscribe at any time."/>
+            termsText="We respect your privacy. Unsubscribe at any time."
+            buttons={[{ text: 'Send Inquiry', href: 'mailto:info@pizzeriadelight.com' }]} />
         </div>
       </div>
       <div id="footer" data-section="footer" className="scroll-mt-24 bg-yellow-50 text-gray-800">
